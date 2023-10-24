@@ -7,7 +7,7 @@ public class Pizza {
     private String bill;
     private Boolean extraCheese = false;
     private Boolean toppings = false;
-    private Boolean takeAway = false;
+//    private Boolean takeAway = false;
 
     public Pizza(Boolean isVeg){
         this.isVeg = isVeg;
@@ -51,12 +51,12 @@ public class Pizza {
 
     public void addTakeaway(){
         // your code goes here
-        if(!takeAway) {
+//        if(!takeAway) {
             this.price += 20;
             this.bill += "Paperbag Added: 20\n";
 
-            takeAway = true;
-        }
+//            takeAway = true;
+//        }
     }
 
     public String getBill(){
