@@ -24,6 +24,10 @@ public class Pizza {
         // your code goes here
     }
 
+    public Pizza() {
+        this.isVeg = true;
+    }
+
     public int getPrice() {
         return this.price;
     }

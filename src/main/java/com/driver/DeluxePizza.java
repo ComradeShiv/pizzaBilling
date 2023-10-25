@@ -8,4 +8,8 @@ public class DeluxePizza extends Pizza {
         addExtraCheese();
         addExtraToppings();
     }
+
+    public DeluxePizza() {
+        super(true);
+    }
 }
